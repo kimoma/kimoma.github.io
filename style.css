@@ -267,14 +267,6 @@ button{
 	outline: none!important;
 }
 
-.btn-wire{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-wire:hover{
-	background:transparent!important;
-	border:2px solid transparent;
-}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -307,6 +299,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* iFrame */
 
@@ -357,17 +356,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-style{
 	width:1200px;
-	height:628px;
+	height:280px;
 }
 .h2-style{
 	font-family:Lobster;
 }
 .link-more-detials-style{
 	font-weight:bold;
-	font-style:normal;
-}
-.link-0-style{
-	font-weight:bold;
+	width:100%;
+	text-decoration:underline;
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:40px;
+	font-family:"Lobster";
+	color:transparent!important;
+	overflow:visible;
+	float:none;
+	border-style:none;
 }
 .row-style{
 	width:100%;
@@ -375,6 +380,36 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h4-style{
 	font-family:Lobster;
 	width:63.56%;
+}
+.link{
+	font-weight:normal;
+	font-family:"Lobster";
+	width:73.26%;
+}
+.link-padding{
+	padding-top:8px;
+	padding-bottom:8px;
+	font-family:"Lobster";
+}
+.img-img-48-style{
+	height:185px;
+}
+.img-bloc-3-style{
+	height:160px;
+	width:317px;
+}
+.img-img-07-style{
+	height:450px;
+	width:316px;
+}
+.img-img-82-style{
+	height:235px;
+}
+.img-img-23-style{
+	height:212px;
+}
+.h6-style{
+	font-family:Lobster;
 }
 
 /* = Colour
@@ -399,6 +434,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-onyx:hover{
 	color:#0e0f10!important;
+}
+.ltc-black{
+	color:#000000!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
 }
 
 /* Bloc image backgrounds */

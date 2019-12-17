@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?351">
-	<link rel="stylesheet" type="text/css" href="style.css?9957">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5152">
+	<link rel="stylesheet" type="text/css" href="style.css?3700">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>About Me</title>
+    <title>Send-email</title>
 
 
     
@@ -57,17 +57,44 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-1 -->
-<div class="bloc l-bloc" id="bloc-1">
+<!-- bloc-4 -->
+<div class="bloc l-bloc" id="bloc-4">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col">
-				<img src="img/lazyload-ph.png" data-src="img/introduce.png" class="img-fluid mx-auto d-block lazyload" alt="introduce" />
+			<div class="col-lg-6 offset-lg-3 offset-md-2 col-md-8">
+				<form id="form_34034" data-form-type="blocs-form" novalidate>
+					<div class="form-group">
+						<label>
+							Your Name
+						</label>
+						<input id="name_34034" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Your Email
+						</label>
+						<input id="email_34034" class="form-control" type="email" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Message
+						</label><textarea id="message_34034" class="form-control" rows="4" cols="50" required></textarea>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="optin_34034" data-validation-minchecked-message="You must agree to this before we can take your information." data-validation-minchecked-minchecked="1" name="optin" />
+						<label class="form-check-label">
+							If you have any question, please send emial to me.
+						</label>
+					</div> 
+					<button class="bloc-button btn btn-d btn-lg btn-block" type="submit">
+						Submit
+					</button>
+				</form>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-1 END -->
+<!-- bloc-4 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
@@ -117,6 +144,8 @@
 <script src="./js/jquery-3.3.1.min.js?1202"></script>
 <script src="./js/bootstrap.bundle.min.js?6344"></script>
 <script src="./js/blocs.min.js?5609"></script>
+<script src="./js/jqBootstrapValidation.js"></script>
+<script src="./js/formHandler.js?8078"></script>
 <script src="./js/lazysizes.min.js" defer></script>
 <!-- Additional JS END -->
 
